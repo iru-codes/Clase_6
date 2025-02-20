@@ -1,0 +1,21 @@
+body{
+    background-color: #f2fdfd;
+    color: antiquewhite;
+}
+
+/* Cambiar color de los indicadores cuando están inactivos */
+.carousel-indicators button {
+    background-color: #cccccc; /* Color para los indicadores inactivos */
+}
+
+/* Cambiar color del indicador activo */
+.carousel-indicators .active {
+    background-color: #121414; /* Color para el indicador activo */
+}
+
+
+/* Cambiar color de las flechas */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #121414; /* Color de la flecha */
+}
